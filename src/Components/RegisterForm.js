@@ -77,7 +77,7 @@ const RegisterForm = (props) => {
           />
           {emailInputHasErrors && (
             <p className="error-text">
-              Email must have @ sign and it cannot be empty
+              Email must have '@' sign and it cannot be empty
             </p>
           )}
         </div>
